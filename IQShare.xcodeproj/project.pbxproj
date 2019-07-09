@@ -15,6 +15,8 @@
 		642618C822D4B0D00058B371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 642618C722D4B0D00058B371 /* Assets.xcassets */; };
 		642618CB22D4B0D00058B371 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 642618C922D4B0D00058B371 /* LaunchScreen.storyboard */; };
 		642618CE22D4B0D00058B371 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 642618CD22D4B0D00058B371 /* main.m */; };
+		642618D422D4B4960058B371 /* IQSharedMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 642618D322D4B4960058B371 /* IQSharedMessage.m */; };
+		642618D722D4B4AA0058B371 /* IQSharedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 642618D622D4B4AA0058B371 /* IQSharedResponse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,6 +46,10 @@
 		642618CA22D4B0D00058B371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		642618CC22D4B0D00058B371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		642618CD22D4B0D00058B371 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		642618D222D4B4960058B371 /* IQSharedMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQSharedMessage.h; sourceTree = "<group>"; };
+		642618D322D4B4960058B371 /* IQSharedMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IQSharedMessage.m; sourceTree = "<group>"; };
+		642618D522D4B4AA0058B371 /* IQSharedResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQSharedResponse.h; sourceTree = "<group>"; };
+		642618D622D4B4AA0058B371 /* IQSharedResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IQSharedResponse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,10 @@
 			children = (
 				642618AF22D4B0C00058B371 /* IQShare.h */,
 				642618B022D4B0C00058B371 /* IQShare.m */,
+				642618D222D4B4960058B371 /* IQSharedMessage.h */,
+				642618D322D4B4960058B371 /* IQSharedMessage.m */,
+				642618D522D4B4AA0058B371 /* IQSharedResponse.h */,
+				642618D622D4B4AA0058B371 /* IQSharedResponse.m */,
 			);
 			path = IQShare;
 			sourceTree = "<group>";
@@ -198,6 +208,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				642618D422D4B4960058B371 /* IQSharedMessage.m in Sources */,
+				642618D722D4B4AA0058B371 /* IQSharedResponse.m in Sources */,
 				642618B122D4B0C00058B371 /* IQShare.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
