@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <IQShare/IQShare.h>
 
 @interface ViewController ()
 
@@ -16,6 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    IQShareTextObject *txt = [[IQShareTextObject alloc] init];
+    txt.text = @"分享文本";
+    [[IQShare defaultShare] shareToPlatform:IQSharePlatformQQ messageObject:txt completion:^(IQShareResponse * _Nonnull response) {
+        
+    }];
     // Do any additional setup after loading the view.
 }
 

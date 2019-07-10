@@ -7,16 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		642618B122D4B0C00058B371 /* IQShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 642618B022D4B0C00058B371 /* IQShare.m */; };
-		642618B222D4B0C00058B371 /* IQShare.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 642618AF22D4B0C00058B371 /* IQShare.h */; };
 		642618C022D4B0D00058B371 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 642618BF22D4B0D00058B371 /* AppDelegate.m */; };
 		642618C322D4B0D00058B371 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 642618C222D4B0D00058B371 /* ViewController.m */; };
 		642618C622D4B0D00058B371 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 642618C422D4B0D00058B371 /* Main.storyboard */; };
 		642618C822D4B0D00058B371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 642618C722D4B0D00058B371 /* Assets.xcassets */; };
 		642618CB22D4B0D00058B371 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 642618C922D4B0D00058B371 /* LaunchScreen.storyboard */; };
 		642618CE22D4B0D00058B371 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 642618CD22D4B0D00058B371 /* main.m */; };
-		642618D422D4B4960058B371 /* IQSharedMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 642618D322D4B4960058B371 /* IQSharedMessage.m */; };
-		642618D722D4B4AA0058B371 /* IQSharedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 642618D622D4B4AA0058B371 /* IQSharedResponse.m */; };
+		64F2BA590AEFA2C146F9A300 /* Pods_IQShareDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F647B157FC9ECC5FE428EE /* Pods_IQShareDemo.framework */; };
+		DB9E02D8CD2BC82431024D67 /* Pods_IQShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29FC3C5D15F8A3617432092 /* Pods_IQShare.framework */; };
+		EE8A5A1C22D58DB6008ABD9F /* IQShareMessageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8A5A0B22D58DB5008ABD9F /* IQShareMessageObject.m */; };
+		EE8A5A1D22D58DB6008ABD9F /* IQShareQQ.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8A5A0F22D58DB6008ABD9F /* IQShareQQ.m */; };
+		EE8A5A1E22D58DB6008ABD9F /* IQShareQZone.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8A5A1022D58DB6008ABD9F /* IQShareQZone.m */; };
+		EE8A5A1F22D58DB6008ABD9F /* IQShareWeChat.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8A5A1122D58DB6008ABD9F /* IQShareWeChat.m */; };
+		EE8A5A2022D58DB6008ABD9F /* IQShareTimeLine.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8A5A1622D58DB6008ABD9F /* IQShareTimeLine.m */; };
+		EE8A5A2122D58DB6008ABD9F /* IQShare.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8A5A1722D58DB6008ABD9F /* IQShare.m */; };
+		EE8A5A2222D58DB6008ABD9F /* IQShareResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8A5A1922D58DB6008ABD9F /* IQShareResponse.m */; };
+		EE8A5A2422D58DC8008ABD9F /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8A5A2322D58DC8008ABD9F /* TencentOpenAPI.framework */; };
+		EE8A5A2522D58F19008ABD9F /* IQShare.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EE8A5A1822D58DB6008ABD9F /* IQShare.h */; };
+		EE8A5A2622D58F19008ABD9F /* IQShareResponse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EE8A5A0D22D58DB6008ABD9F /* IQShareResponse.h */; };
+		EE8A5A2722D58F19008ABD9F /* IQShareMessageObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EE8A5A0C22D58DB5008ABD9F /* IQShareMessageObject.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,16 +35,19 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				642618B222D4B0C00058B371 /* IQShare.h in CopyFiles */,
+				EE8A5A2522D58F19008ABD9F /* IQShare.h in CopyFiles */,
+				EE8A5A2622D58F19008ABD9F /* IQShareResponse.h in CopyFiles */,
+				EE8A5A2722D58F19008ABD9F /* IQShareMessageObject.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		10C60038CC67D8415B4305E5 /* Pods-IQShareDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQShareDemo.debug.xcconfig"; path = "Target Support Files/Pods-IQShareDemo/Pods-IQShareDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3662DF5C2BA4B6E511482A61 /* Pods-IQShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQShare.debug.xcconfig"; path = "Target Support Files/Pods-IQShare/Pods-IQShare.debug.xcconfig"; sourceTree = "<group>"; };
+		39DA00E234D3A4CE36B227BB /* Pods-IQShareDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQShareDemo.release.xcconfig"; path = "Target Support Files/Pods-IQShareDemo/Pods-IQShareDemo.release.xcconfig"; sourceTree = "<group>"; };
 		642618AC22D4B0C00058B371 /* libIQShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIQShare.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		642618AF22D4B0C00058B371 /* IQShare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQShare.h; sourceTree = "<group>"; };
-		642618B022D4B0C00058B371 /* IQShare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IQShare.m; sourceTree = "<group>"; };
 		642618BC22D4B0CF0058B371 /* IQShareDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IQShareDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		642618BE22D4B0D00058B371 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		642618BF22D4B0D00058B371 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,10 +58,26 @@
 		642618CA22D4B0D00058B371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		642618CC22D4B0D00058B371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		642618CD22D4B0D00058B371 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		642618D222D4B4960058B371 /* IQSharedMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQSharedMessage.h; sourceTree = "<group>"; };
-		642618D322D4B4960058B371 /* IQSharedMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IQSharedMessage.m; sourceTree = "<group>"; };
-		642618D522D4B4AA0058B371 /* IQSharedResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQSharedResponse.h; sourceTree = "<group>"; };
-		642618D622D4B4AA0058B371 /* IQSharedResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IQSharedResponse.m; sourceTree = "<group>"; };
+		77F647B157FC9ECC5FE428EE /* Pods_IQShareDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IQShareDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29FC3C5D15F8A3617432092 /* Pods_IQShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IQShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8A5A0B22D58DB5008ABD9F /* IQShareMessageObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQShareMessageObject.m; sourceTree = "<group>"; };
+		EE8A5A0C22D58DB5008ABD9F /* IQShareMessageObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQShareMessageObject.h; sourceTree = "<group>"; };
+		EE8A5A0D22D58DB6008ABD9F /* IQShareResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IQShareResponse.h; path = ../../../OC/JRShareComponent/JRShareComponent/IQShareResponse.h; sourceTree = "<group>"; };
+		EE8A5A0F22D58DB6008ABD9F /* IQShareQQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQShareQQ.m; sourceTree = "<group>"; };
+		EE8A5A1022D58DB6008ABD9F /* IQShareQZone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQShareQZone.m; sourceTree = "<group>"; };
+		EE8A5A1122D58DB6008ABD9F /* IQShareWeChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQShareWeChat.m; sourceTree = "<group>"; };
+		EE8A5A1222D58DB6008ABD9F /* IQShareTimeLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQShareTimeLine.h; sourceTree = "<group>"; };
+		EE8A5A1322D58DB6008ABD9F /* IQShareQQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQShareQQ.h; sourceTree = "<group>"; };
+		EE8A5A1422D58DB6008ABD9F /* IQShareQZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQShareQZone.h; sourceTree = "<group>"; };
+		EE8A5A1522D58DB6008ABD9F /* IQShareWeChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQShareWeChat.h; sourceTree = "<group>"; };
+		EE8A5A1622D58DB6008ABD9F /* IQShareTimeLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQShareTimeLine.m; sourceTree = "<group>"; };
+		EE8A5A1722D58DB6008ABD9F /* IQShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IQShare.m; path = ../../../OC/JRShareComponent/JRShareComponent/IQShare.m; sourceTree = "<group>"; };
+		EE8A5A1822D58DB6008ABD9F /* IQShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IQShare.h; path = ../../../OC/JRShareComponent/JRShareComponent/IQShare.h; sourceTree = "<group>"; };
+		EE8A5A1922D58DB6008ABD9F /* IQShareResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IQShareResponse.m; path = ../../../OC/JRShareComponent/JRShareComponent/IQShareResponse.m; sourceTree = "<group>"; };
+		EE8A5A1A22D58DB6008ABD9F /* IQShareInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IQShareInterface.h; path = ../../../OC/JRShareComponent/JRShareComponent/IQShareInterface.h; sourceTree = "<group>"; };
+		EE8A5A1B22D58DB6008ABD9F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../OC/JRShareComponent/JRShareComponent/README.md; sourceTree = "<group>"; };
+		EE8A5A2322D58DC8008ABD9F /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		FA1655653FAAE0627DF74F7B /* Pods-IQShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQShare.release.xcconfig"; path = "Target Support Files/Pods-IQShare/Pods-IQShare.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE8A5A2422D58DC8008ABD9F /* TencentOpenAPI.framework in Frameworks */,
+				DB9E02D8CD2BC82431024D67 /* Pods_IQShare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,18 +94,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64F2BA590AEFA2C146F9A300 /* Pods_IQShareDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C61B1896ED2633C37755021 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3662DF5C2BA4B6E511482A61 /* Pods-IQShare.debug.xcconfig */,
+				FA1655653FAAE0627DF74F7B /* Pods-IQShare.release.xcconfig */,
+				10C60038CC67D8415B4305E5 /* Pods-IQShareDemo.debug.xcconfig */,
+				39DA00E234D3A4CE36B227BB /* Pods-IQShareDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		642618A322D4B0C00058B371 = {
 			isa = PBXGroup;
 			children = (
 				642618AE22D4B0C00058B371 /* IQShare */,
 				642618BD22D4B0D00058B371 /* IQShareDemo */,
 				642618AD22D4B0C00058B371 /* Products */,
+				3C61B1896ED2633C37755021 /* Pods */,
+				9FF32D8A9D150FA9C34536E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,12 +135,15 @@
 		642618AE22D4B0C00058B371 /* IQShare */ = {
 			isa = PBXGroup;
 			children = (
-				642618AF22D4B0C00058B371 /* IQShare.h */,
-				642618B022D4B0C00058B371 /* IQShare.m */,
-				642618D222D4B4960058B371 /* IQSharedMessage.h */,
-				642618D322D4B4960058B371 /* IQSharedMessage.m */,
-				642618D522D4B4AA0058B371 /* IQSharedResponse.h */,
-				642618D622D4B4AA0058B371 /* IQSharedResponse.m */,
+				EE8A5A2322D58DC8008ABD9F /* TencentOpenAPI.framework */,
+				EE8A5A1A22D58DB6008ABD9F /* IQShareInterface.h */,
+				EE8A5A1822D58DB6008ABD9F /* IQShare.h */,
+				EE8A5A1722D58DB6008ABD9F /* IQShare.m */,
+				EE8A5A1B22D58DB6008ABD9F /* README.md */,
+				EE8A5A0D22D58DB6008ABD9F /* IQShareResponse.h */,
+				EE8A5A1922D58DB6008ABD9F /* IQShareResponse.m */,
+				EE8A5A0E22D58DB6008ABD9F /* platform */,
+				EE8A5A0A22D58DB5008ABD9F /* msgObj */,
 			);
 			path = IQShare;
 			sourceTree = "<group>";
@@ -117,6 +164,41 @@
 			path = IQShareDemo;
 			sourceTree = "<group>";
 		};
+		9FF32D8A9D150FA9C34536E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D29FC3C5D15F8A3617432092 /* Pods_IQShare.framework */,
+				77F647B157FC9ECC5FE428EE /* Pods_IQShareDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE8A5A0A22D58DB5008ABD9F /* msgObj */ = {
+			isa = PBXGroup;
+			children = (
+				EE8A5A0C22D58DB5008ABD9F /* IQShareMessageObject.h */,
+				EE8A5A0B22D58DB5008ABD9F /* IQShareMessageObject.m */,
+			);
+			name = msgObj;
+			path = ../../../OC/JRShareComponent/JRShareComponent/msgObj;
+			sourceTree = "<group>";
+		};
+		EE8A5A0E22D58DB6008ABD9F /* platform */ = {
+			isa = PBXGroup;
+			children = (
+				EE8A5A1322D58DB6008ABD9F /* IQShareQQ.h */,
+				EE8A5A0F22D58DB6008ABD9F /* IQShareQQ.m */,
+				EE8A5A1422D58DB6008ABD9F /* IQShareQZone.h */,
+				EE8A5A1022D58DB6008ABD9F /* IQShareQZone.m */,
+				EE8A5A1122D58DB6008ABD9F /* IQShareWeChat.m */,
+				EE8A5A1222D58DB6008ABD9F /* IQShareTimeLine.h */,
+				EE8A5A1522D58DB6008ABD9F /* IQShareWeChat.h */,
+				EE8A5A1622D58DB6008ABD9F /* IQShareTimeLine.m */,
+			);
+			name = platform;
+			path = ../../../OC/JRShareComponent/JRShareComponent/platform;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -124,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 642618B522D4B0C00058B371 /* Build configuration list for PBXNativeTarget "IQShare" */;
 			buildPhases = (
+				5C061ABC5E442B3E87918677 /* [CP] Check Pods Manifest.lock */,
 				642618A822D4B0C00058B371 /* Sources */,
 				642618A922D4B0C00058B371 /* Frameworks */,
 				642618AA22D4B0C00058B371 /* CopyFiles */,
@@ -141,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 642618CF22D4B0D00058B371 /* Build configuration list for PBXNativeTarget "IQShareDemo" */;
 			buildPhases = (
+				CB434952E790980A2D3E907E /* [CP] Check Pods Manifest.lock */,
 				642618B822D4B0CF0058B371 /* Sources */,
 				642618B922D4B0CF0058B371 /* Frameworks */,
 				642618BA22D4B0CF0058B371 /* Resources */,
@@ -203,14 +287,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5C061ABC5E442B3E87918677 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IQShare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB434952E790980A2D3E907E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IQShareDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		642618A822D4B0C00058B371 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				642618D422D4B4960058B371 /* IQSharedMessage.m in Sources */,
-				642618D722D4B4AA0058B371 /* IQSharedResponse.m in Sources */,
-				642618B122D4B0C00058B371 /* IQShare.m in Sources */,
+				EE8A5A1E22D58DB6008ABD9F /* IQShareQZone.m in Sources */,
+				EE8A5A2122D58DB6008ABD9F /* IQShare.m in Sources */,
+				EE8A5A1C22D58DB6008ABD9F /* IQShareMessageObject.m in Sources */,
+				EE8A5A2022D58DB6008ABD9F /* IQShareTimeLine.m in Sources */,
+				EE8A5A2222D58DB6008ABD9F /* IQShareResponse.m in Sources */,
+				EE8A5A1D22D58DB6008ABD9F /* IQShareQQ.m in Sources */,
+				EE8A5A1F22D58DB6008ABD9F /* IQShareWeChat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,8 +495,13 @@
 		};
 		642618B622D4B0C00058B371 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3662DF5C2BA4B6E511482A61 /* Pods-IQShare.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IQShare",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -371,8 +511,13 @@
 		};
 		642618B722D4B0C00058B371 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA1655653FAAE0627DF74F7B /* Pods-IQShare.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IQShare",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -382,6 +527,7 @@
 		};
 		642618D022D4B0D00058B371 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C60038CC67D8415B4305E5 /* Pods-IQShareDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -389,6 +535,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-Objc",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lobster.IQShareDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -398,6 +548,7 @@
 		};
 		642618D122D4B0D00058B371 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39DA00E234D3A4CE36B227BB /* Pods-IQShareDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -405,6 +556,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-Objc",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lobster.IQShareDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
